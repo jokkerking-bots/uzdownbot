@@ -1,12 +1,6 @@
 class Translation(object):
-    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!
-
-<b>☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>
-
-/help 👈Yuklash uchun Namuna..
-
-👷Yaratuvchi : @JokkerKing"""
-     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
+    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!\n<b>☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>\n/help 👈Yuklash uchun Namuna..\n👷Yaratuvchi : @JokkerKing"""
+    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
@@ -34,21 +28,23 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: Free Cloned User
 Expires on: 31/12/2020"""
-        HELP_USER = """URL yuklash Yoriqnomasi.
+    HELP_USER = """Hai am URL Uploader bot..
     
-1. URL manzilini yuboring (url|kengaytmali yangi nom).
-2. Shaxsiy eskizni yuboring (ixtiyoriy).
-3. Tugmani tanlang.
-   SVideo - Skrinshotlar bilan faylni video sifatida yuboradi.
-   DFile - Skrinshot bilan fayl yuboradi.
-   Video - Faylni skrinshotisiz video sifatida yuboradi.
-   DFile - Faylni ekran tasvirisiz yuboradi.
+1. Send url (Link|New Name with Extension).
+2. Send Custom Thumbnail (Optional).
+3. Select the button.
+   SVideo - Give File as video with Screenshots
+   DFile  - Give File with Screenshots
+   Video  - Give File as video without Screenshots
+   DFile  - Give File without Screenshots
    
-Joriy reja tafsilotlarini bilish uchun menga /me yuboring
+<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/QkAkSLBgoYw">Diploy</a>
 
-<b>👉 YouTube Kanalimizga azo Boling Va Ushbu Botni Ozingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ
+--------
+Send /me to know current plan details
 
-👷Yaratuvchi: @JokkerKing"""
+Support Group : @InFoTelGroup
+© @TGBotsZ & @CWProjects"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
