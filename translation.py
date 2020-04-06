@@ -1,11 +1,5 @@
 class Translation(object):
-    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!
-
-<b>☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>
-
-/help 👈Yuklash uchun Qo'llanma..
-
-👷Yaratuvchi : @JokkerKing"""
+    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!\n<b>☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>\n\n/help 👈Yuklash uchun Namuna..\n👷Yaratuvchi : @JokkerKing"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 YouTube Kanalimizga azo Boling Va Usbu Botni O'zingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
@@ -21,7 +15,7 @@ URL | filename | username | password"""
     UPLOAD_START = "<b>Yuklanmoqda📥</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "{} Soniya ichida yuklab olindi.\nFayl hajmi: {} \ nKechirasiz. Ammo, men Telegram API cheklovlari tufayli 1.5GB dan katta fayllarni yuklay olmayman."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>👉 YouTube Kanalimizga azo Boling Va Usbu Botni O'zingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>👉 YouTube Kanalimizga azo Boling Va Ushbu Botni Ozingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\n<b>👉 YouTube Kanalimizga azo Boling Va Usbu Botni O'zingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ \n\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
@@ -38,7 +32,7 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: Free  User
 Expires on: 31/12/2020
-<b>👉 YouTube Kanalimizga azo Boling Va Usbu Botni O'zingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"""
+<b>👉 YouTube Kanalimizga azo Boling Va Usjbu Botni Ozingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"""
     HELP_USER = """URL yuklash Yoriqnomasi.
     
 1. URL manzilini yuboring (url|kengaytmali yangi nom).
@@ -51,7 +45,7 @@ Expires on: 31/12/2020
    
 Joriy reja tafsilotlarini bilish uchun menga /me yuboring
 
-<b>👉 YouTube Kanalimizga azo Boling Va Usbu Botni O'zingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ
+<b>👉 YouTube Kanalimizga azo Boling Va Ushbu Botni Ozingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ
 
 👷Yaratuvchi: @JokkerKing"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
