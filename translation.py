@@ -1,5 +1,8 @@
 class Translation(object):
-    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!\n<b>☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>\n/help 👈Yuklash uchun Namuna..\n👷Yaratuvchi : @JokkerKing"""
+    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!<b>
+☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>
+/help 👈Yuklash uchun Namuna..
+👷Yaratuvchi : @JokkerKing"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
