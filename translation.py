@@ -1,22 +1,24 @@
 class Translation(object):
-    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!\n<b>☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>\n\n/help 👈Yuklash uchun Namuna..\n👷Yaratuvchi : @JokkerKing"""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
+    START_TEXT = """🙋Salom Bu Bot Telegram Orqali 📎URL Yordamida 💾Fayl Yuklab beruvchi Bot!
+
+<b>☺Iltimos menga URL Yuboring Men Uni sizga 📂Fayl Yoki 🎬Video Ko'rinishida Yuklab Beraman📥.</b>
+
+/help 👈Yuklash uchun Namuna..
+
+👷Yaratuvchi : @JokkerKing"""
+     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 YouTube Kanalimizga azo Boling Va Usbu Botni O'zingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
-    FORMAT_SELECTION = "Kerakli formatni tanlang:<a href='{}'>fayl hajmi taxminiy bo'lishi mumkin</a>
-Agar siz o'zingizning shaxsiy eskizingizni o'rnatmoqchi bo'lsangiz, fotosuratni quyida joylashgan tugmalardan birini bosishdan oldin fotosuratni yuboring keyin bosing.
-Avtomatik yaratilgan eskizni o'chirish uchun siz /deletethumbnail tugmachasidan foydalanishingiz mumkin.
-Agar siz premium videolarni yuklab olishni xohlasangiz, quyidagi formatda taqdim eting:
-URL | fayl nomi | foydalanuvchi nomi | parol"
+    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
+    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "📤 Sizning so'rovingiz Bajarilmoqda. Boshqa so'rov yubormang. Iltimos, biroz sabr qiling .."
-    UPLOAD_START = "<b>Yuklanmoqda📥</b>"
+    DOWNLOAD_START = "trying to download"
+    UPLOAD_START = "trying to upload"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "{} Soniya ichida yuklab olindi.\nFayl hajmi: {} \ nKechirasiz. Ammo, men Telegram API cheklovlari tufayli 1.5GB dan katta fayllarni yuklay olmayman."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>👉 YouTube Kanalimizga azo Boling Va Ushbu Botni Ozingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\n<b>👉 YouTube Kanalimizga azo Boling Va Usbu Botni O'zingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ \n\nUploaded in {} seconds."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @TGBotsZ"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @TGBotsZ \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
@@ -25,24 +27,23 @@ URL | filename | username | password"""
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "<b>Xatolik Mavjud</b> Tafsilotlar: {}"
+    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
 Telegram ID: <code>{}</code>
-Plan name: Free  User
-Expires on: 31/12/2020
-<b>👉 YouTube Kanalimizga azo Boling Va Usjbu Botni Ozingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"""
-    HELP_USER = """URL yuklash Yoriqnomasi.
-    
+Plan name: Free Cloned User
+Expires on: 31/12/2020"""
+        HELP_USER = """URL yuklash Yoriqnomasi.
+    
 1. URL manzilini yuboring (url|kengaytmali yangi nom).
 2. Shaxsiy eskizni yuboring (ixtiyoriy).
 3. Tugmani tanlang.
-   SVideo - Skrinshotlar bilan faylni video sifatida yuboradi.
-   DFile - Skrinshot bilan fayl yuboradi.
-   Video - Faylni skrinshotisiz video sifatida yuboradi.
-   DFile - Faylni ekran tasvirisiz yuboradi.
-   
+   SVideo - Skrinshotlar bilan faylni video sifatida yuboradi.
+   DFile - Skrinshot bilan fayl yuboradi.
+   Video - Faylni skrinshotisiz video sifatida yuboradi.
+   DFile - Faylni ekran tasvirisiz yuboradi.
+   
 Joriy reja tafsilotlarini bilish uchun menga /me yuboring
 
 <b>👉 YouTube Kanalimizga azo Boling Va Ushbu Botni Ozingiz Yarating.. </b>\nhttps://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ
@@ -52,7 +53,7 @@ Joriy reja tafsilotlarini bilish uchun menga /me yuboring
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @JokkerKing"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
@@ -67,7 +68,7 @@ Joriy reja tafsilotlarini bilish uchun menga /me yuboring
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
-    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/JokkerKing'>@JokkerKing</a>"
+    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
 You can use /rename command after receiving file to rename it with custom thumbnail support."""
     CANCEL_STR = "Process Cancelled"
