@@ -11,24 +11,19 @@ I also upload YouTube videos📥</b>
 Support : @JokkerKing"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-        UPGRADE_TEXT = "<b>😅Bu bepul xizmat. Yangilanish rejalari yo'q😜.
-Iltimos, meni foydali deb bilsangiz, mening kanalimga obuna bo'ling:</b>https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
-    FORMAT_SELECTION = "Kerakli formatni tanlang: <a href='{}'>fayl hajmi taxminiy bo'lishi mumkin</a> \nAgar siz o'zingizning shaxsiy eskizingizni o'rnatmoqchi bo'lsangiz, fotosuratni quyida joylashgan tugmalardan birini bosishdan oldin yuboring va keyin bosing.
-
-Avtomatik yaratilgan eskizni o'chirish uchun siz /deletethumbnail tugmachasidan foydalanishingiz mumkin.
-Agar siz premium videolarni yuklab olishni xohlasangiz, quyidagi formatda taqdim eting:
-URL | fayl nomi | foydalanuvchi nomi | parol"
+    UPGRADE_TEXT = "<b>😅This is Free Service. No Upgrade Plans 😜</b>\nPlease Subscribe to my channel if you me useful. <a href='https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ'>Click here to subscribe</a>  /help for Details"
+    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "<b>📤 Sizning so'rovingiz bajarilmoqda. Boshqa so'rov yubormang. Iltimos, sabr qiling ... </b>"
-    UPLOAD_START = "<b>Boroz kuting📥</b>"
+    DOWNLOAD_START = "<b>trying to download📥 </b>"
+    UPLOAD_START = "<b>trying to upload📥</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please Subscribe to my channel if you  me useful. Click here to subscribe: https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nPlease Subscribe to my channel if you me useful. <a href='https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ'>Click here to subscribe</a> \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.me/jokkerking>@Support : @JokkerKing</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.me/jokkerking>@JokkerKing</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
@@ -74,7 +69,7 @@ Support : @JokkerKing"""
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
     INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
-    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/FFMpegRoBot"
+    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Please Subscribe to my channel if you me useful. <a href='https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ'>Click here to subscribe</a>"
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
