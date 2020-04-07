@@ -11,13 +11,18 @@ I also upload YouTube videos📥</b>
 Support : @JokkerKing"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>😅This is Free Service. No Upgrade Plans 😜</b>  /help for Details"
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
+        UPGRADE_TEXT = "<b>😅Bu bepul xizmat. Yangilanish rejalari yo'q😜.
+Iltimos, meni foydali deb bilsangiz, mening kanalimga obuna bo'ling:</b>https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
+    FORMAT_SELECTION = "Kerakli formatni tanlang: <a href='{}'>fayl hajmi taxminiy bo'lishi mumkin</a> \nAgar siz o'zingizning shaxsiy eskizingizni o'rnatmoqchi bo'lsangiz, fotosuratni quyida joylashgan tugmalardan birini bosishdan oldin yuboring va keyin bosing.
+
+Avtomatik yaratilgan eskizni o'chirish uchun siz /deletethumbnail tugmachasidan foydalanishingiz mumkin.
+Agar siz premium videolarni yuklab olishni xohlasangiz, quyidagi formatda taqdim eting:
+URL | fayl nomi | foydalanuvchi nomi | parol"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "<b>trying to download📥 </b>"
-    UPLOAD_START = "<b>trying to upload📥</b>"
+    DOWNLOAD_START = "<b>📤 Sizning so'rovingiz bajarilmoqda. Boshqa so'rov yubormang. Iltimos, sabr qiling ... </b>"
+    UPLOAD_START = "<b>Boroz kuting📥</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please Subscribe to my channel if you  me useful. Click here to subscribe: https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ"
