@@ -1,17 +1,8 @@
 class Translation(object):
-    START_TEXT = """🙋Hello,
-This is a Telegram URL Upload Bot!
-
-<b>☺Please send me any direct download URL Link, i can upload to telegram as File/Video
-
-I also upload YouTube videos📥</b>
-
-/help for more details..
-
-Support : @JokkerKing"""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>😅This is Free Service. No Upgrade Plans 😜</b>\nPlease Subscribe to my channel if you me useful. <a href='https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ'>Click here to subscribe</a>  /help for Details"
+    START_TEXT = """🙋Salom, Bu Telegram URL manzilini yuklash botidir! <b> ☺Menga to'g'ridan-to'g'ri yuklab olish uchun URL manzilini yuboring, men Telegram-ga Fayl / Video sifatida yuklay olaman YouTube videolarini ham yuklayman upload </b> /help batafsil ma'lumot uchun  .. Qo'llab-quvvatlash: @Saidjon_okenn"""
+    RENAME_403_ERR = "Kechirasiz. Sizga ushbu fayl nomini o'zgartirishga ruxsat berilmagan."
+    ABS_TEXT = " Iltimos, xudbin bo'lmang
+Service. No Upgrade Plans 😜</b>\nPlease Subscribe to my channel if you me useful. <a href='https://www.youtube.com/channel/UCOUMWBgL80w6SwG2T6wJbIQ'>Click here to subscribe</a>  /help for Details"
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
